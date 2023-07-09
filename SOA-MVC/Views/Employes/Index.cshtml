@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Domain.Empleado>
+@{
+    ViewData["Title"] = "Empleados";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+<div class="row">
+    <div class="col-12">
+        <div class="row">
+            <div class="col-12">
+                <a href="@Url.Action("Create", "Employes")" class="btn btn-success">
+                    <i class="fas fa-plus"></i> Add New Person
+                </a>
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Apellidos
+                    </th>
+                    <th>
+                        No. Empleados
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Nombre</td>
+                        <td>@item.Apellidos</td>
+                        <td>@item.Numero_Empleado</td>
+                        <td>
+                            <a href="@Url.Action("Edit", "Employes", new { id = item.Id })" class="btn btn-primary">
+                                <i class="fas fa-edit"></i> Edit
+                            </a>
+                        </td>
+                        <td>
+                            <form action="@Url.Action("Delete", "Employes", new { id = item.Id })" method="post">
+                                <button type="submit" class="btn btn-danger">
+                                    <i class="fas fa-trash"></i> Delete
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
