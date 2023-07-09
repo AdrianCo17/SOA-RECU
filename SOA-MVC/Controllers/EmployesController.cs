@@ -19,16 +19,16 @@ namespace SOA_MVC.Controllers
             return View(lista);
         }
 
-        [HttpPost]
         public IActionResult Create()
         {
             return View();
         }
 
+        [HttpPost]
         public IActionResult Create(Empleado empleado)
         {
             var result = _employeService.CreateEmployes(empleado);
-
+            
             if (result > 0)
             {
                 return RedirectToAction("Index");
@@ -38,7 +38,7 @@ namespace SOA_MVC.Controllers
                 return View(empleado);
             }
         }
-        [HttpGet]
+        [HttpPost]
         public IActionResult Edit(Empleado empleado)
         {
             var result = _employeService.UpdateEmployes(empleado);
