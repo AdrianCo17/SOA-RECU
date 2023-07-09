@@ -7,8 +7,6 @@
 
 @using (Html.BeginForm())
 {
-    @Html.AntiForgeryToken()
-
     <div class="form-group">
         <label asp-for="Nombre">Nombre:</label>
         <input asp-for="Nombre" class="form-control" />

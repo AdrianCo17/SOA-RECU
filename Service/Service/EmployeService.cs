@@ -51,10 +51,25 @@ namespace Service.Service
 
             return empleados;
 
-             
         }
 
-        int IEmploye.UpdateEmployes(Empleado empleado)
+        public Empleado GetEmploye(int id)
+        {
+            Empleado empleado = new Empleado();
+
+            try
+            {
+                empleado = employeRepository.GetEmployeById(id);
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+            }
+
+            return empleado;
+        }
+
+        public int UpdateEmployes(Empleado empleado)
         {
             int succes = 0;
             try
@@ -68,7 +83,7 @@ namespace Service.Service
             return succes;
         }
 
-        int IEmploye.DeleteEmployes(Empleado empleado)
+        public int DeleteEmployes(Empleado empleado)
         {
             int succes = 0;
             try

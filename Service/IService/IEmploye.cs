@@ -10,6 +10,7 @@ namespace Service.IService
     public interface IEmploye
     {
         List<Empleado> GetEmployes();
+        Empleado GetEmploye(int id);
         int CreateEmployes(Empleado empleado);
         int UpdateEmployes(Empleado empleado);
         int DeleteEmployes(Empleado empleado);

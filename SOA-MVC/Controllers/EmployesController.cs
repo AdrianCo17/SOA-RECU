@@ -38,6 +38,13 @@ namespace SOA_MVC.Controllers
                 return View(empleado);
             }
         }
+
+        public IActionResult Edit(int id)
+        {
+
+            Empleado empleado = _employeService.GetEmploye(id);
+            return View(empleado);
+        }
         [HttpPost]
         public IActionResult Edit(Empleado empleado)
         {

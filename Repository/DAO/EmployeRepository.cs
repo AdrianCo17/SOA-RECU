@@ -24,6 +24,10 @@ namespace Repository.DAO
             return _context.Empleados.ToList();
         }
 
+        public Empleado GetEmployeById(int id)
+        {
+            return _context.Empleados.FirstOrDefault(e => e.Id == id);
+        }
         public int Create(Empleado empleado)
         {
             _context.Empleados.Add(empleado);
