@@ -51,5 +51,49 @@ namespace Service.Service
 
             return activos;
         }
+
+        public Activo GetAsset(int id)
+        {
+            Activo activo = new Activo();
+
+            try
+            {
+                activo = assetRepository.GetAssetById(id);
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+            }
+
+            return activo;
+        }
+
+        public int UpdateAssets(Activo activo)
+        {
+            int succes = 0;
+            try
+            {
+                succes = assetRepository.Update(activo);
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+            }
+            return succes;
+        }
+
+        public int DeleteAssets(Activo activo)
+        {
+            int succes = 0;
+            try
+            {
+                succes = assetRepository.Delete(activo);
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+            }
+            return succes;
+        }
     }
 }

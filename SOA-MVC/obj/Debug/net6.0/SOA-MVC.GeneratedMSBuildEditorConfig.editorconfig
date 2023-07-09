@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ADMIN\source\repos\SOA-MVC\SOA-MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ADMIN/source/repos/SOA-MVC/SOA-MVC/Views/Assets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/SOA-MVC/SOA-MVC/Views/Assets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ADMIN/source/repos/SOA-MVC/SOA-MVC/Views/Assets/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

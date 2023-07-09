@@ -11,5 +11,8 @@ namespace Service.IService
     {
         List<Activo> GetAssets();
         int CreateAssets(Activo activo);
+        Activo GetAsset(int id);
+        int UpdateAssets(Activo activo);
+        int DeleteAssets(Activo activo);
     }
 }

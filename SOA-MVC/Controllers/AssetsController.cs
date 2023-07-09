@@ -1,6 +1,7 @@
 ﻿using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Service.IService;
+using Service.Service;
 
 namespace SOA_MVC.Controllers
 {
@@ -13,18 +14,19 @@ namespace SOA_MVC.Controllers
         {
             _assetService = asset;
         }
+
         public IActionResult Index()
         {
             var lista = _assetService.GetAssets();
             return View(lista);
         }
 
-        [HttpPost]
         public IActionResult Create()
         {
             return View();
         }
 
+        [HttpPost]
         public IActionResult Create(Activo activo)
         {
             var result = _assetService.CreateAssets(activo);
@@ -35,8 +37,44 @@ namespace SOA_MVC.Controllers
             }
             else
             {
-                ModelState.AddModelError("", "Failed to create employes");
-                return View(result);
+                return View(activo);
+            }
+        }
+
+        public IActionResult Edit(int id)
+        {
+
+            Activo activo = _assetService.GetAsset(id);
+            return View(activo);
+        }
+        [HttpPost]
+        public IActionResult Edit(Activo activo)
+        {
+            var result = _assetService.UpdateAssets(activo);
+
+            if (result > 0)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(activo);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Delete(Activo activo)
+        {
+            var result = _assetService.DeleteAssets(activo);
+
+            if (result > 0)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return RedirectToAction("Index");
+
             }
         }
     }

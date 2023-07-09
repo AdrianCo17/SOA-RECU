@@ -27,5 +27,22 @@ namespace Repository.DAO
             _context.Activos.Add(activo);
             return _context.SaveChanges();
         }
+
+        public Activo GetAssetById(int id)
+        {
+            return _context.Activos.FirstOrDefault(e => e.Id == id);
+        }
+
+        public int Update(Activo activo)
+        {
+            _context.Activos.Update(activo);
+            return _context.SaveChanges();
+        }
+
+        public int Delete(Activo activo)
+        {
+            _context.Activos.Remove(activo);
+            return (_context.SaveChanges());
+        }
     }
 }
