@@ -1,6 +1,6 @@
-﻿@model IEnumerable<Domain.Activo>
+﻿@model IEnumerable<Domain.Activo_Empleado>
 @{
-    ViewData["Title"] = "Activos";
+    ViewData["Title"] = "Activos-Empeados";
 }
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
@@ -9,7 +9,7 @@
     <div class="col-12">
         <div class="row">
             <div class="col-12">
-                <a href="@Url.Action("Create", "Assets")" class="btn btn-success">
+                <a href="@Url.Action("Create", "AssetsEmployes")" class="btn btn-success">
                     <i class="fas fa-plus"></i> Agergar nuevo activo
                 </a>
             </div>
@@ -17,9 +17,12 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>Nombre</th>
-                    <th>Descripcion</th>
-                    <th>Estado</th>
+                    <th>Id</th>
+                    <th>Id_Empleado</th>
+                    <th>Id_Activo</th>
+                    <th>Fecha_Asignacion</th>
+                    <th>Fecha_Liberacion</th>
+                    <th>Fecha_Entrega</th>
                     <th>Editar</th>
                     <th>Borrar</th>
                 </tr>
@@ -29,9 +32,11 @@
                 {
                     <tr>
                         <td>@item.Id</td>
-                        <td>@item.Nombre</td>
-                        <td>@item.Descripcion</td>
-                        <td>@(item.Estatus ? "Ocupado" : "Desocupado")</td>
+                        <td>@item.Id_Empleado</td>
+                        <td>@item.Id_Activo</td>
+                        <td>@item.Fecha_Asignacion.ToShortDateString()</td>
+                        <td>@item.Fecha_Liberacion.ToShortDateString()</td>
+                        <td>@item.Fecha_Entrega.ToShortDateString()</td>
                         <td>
                             <a href="@Url.Action("Edit", "Assets", new { id = item.Id })" class="btn btn-primary">
                                 <i class="fas fa-edit"></i> Edit

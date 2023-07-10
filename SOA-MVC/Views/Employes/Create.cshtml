@@ -51,7 +51,8 @@
     </div>
 
     <div class="form-group">
-        <input type="hidden" asp-for="@Model.Estatus" name="Estatus" class="form-control" value="true" />
+        <label asp-for="Estatus">Estado:</label>
+        <input asp-for="@Model.Estatus" name="Estatus" class="form-check-input" value="true" />
         <span asp-validation-for="@Model.Estatus" class="text-danger"></span>
     </div>
 

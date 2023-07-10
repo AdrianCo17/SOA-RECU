@@ -17,24 +17,32 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>
-                        Nombre
-                    </th>
-                    <th>
-                        Apellidos
-                    </th>
-                    <th>
-                        No. Empleados
-                    </th>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>CURP</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Email</th>
+                    <th>Número de Empleado</th>
+                    <th>Fecha de Ingreso</th>
+                    <th>Estatus</th>
+                    <th>Editar</th>
+                    <th>Borrar</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (var item in Model)
                 {
                     <tr>
+                        <td>@item.Id</td>
                         <td>@item.Nombre</td>
                         <td>@item.Apellidos</td>
+                        <td>@item.CURP</td>
+                        <td>@item.Fecha_Nacimiento.ToShortDateString()</td>
+                        <td>@item.Email</td>
                         <td>@item.Numero_Empleado</td>
+                        <td>@item.Fecha_Ingreso.ToShortDateString()</td>
+                        <td>@(item.Estatus ? "Active" : "Inactive")</td>
                         <td>
                             <a href="@Url.Action("Edit", "Employes", new { id = item.Id })" class="btn btn-primary">
                                 <i class="fas fa-edit"></i> Edit

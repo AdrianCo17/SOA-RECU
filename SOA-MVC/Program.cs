@@ -14,6 +14,7 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddRazorPages();
 builder.Services.AddTransient<IEmploye, EmployeService>();
 builder.Services.AddTransient<IAsset, AssetService>();
+builder.Services.AddTransient<IAssetEmploye, AssetEmployeService>();
 
 
 builder.Services.AddControllersWithViews();
