@@ -27,7 +27,7 @@ namespace SOA_MVC.Controllers
         public IActionResult Create()
         {
             var empleados = _employeService.GetEmployes();
-            var activos = _assetService.GetAssets();
+            var activos = _assetService.GetAssetsUnused();
 
             ViewBag.Empleados = empleados;
             ViewBag.Activos = activos;
@@ -39,14 +39,27 @@ namespace SOA_MVC.Controllers
         public IActionResult Create(Activo_Empleado activoEmpleado)
         {
             var result = _assetEmployeService.CreateAssetsEmployes(activoEmpleado);
+            var updateAsset = _assetService.SetAssetAsUSed(activoEmpleado.Id_Activo);
 
-            if (result > 0)
+            if (updateAsset > 0)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("chingada");
             }
             else
             {
-                return View(activoEmpleado);
+                if ( result > 0)
+                {
+                    return RedirectToAction("index");
+                } 
+                else
+                {
+                    var empleados = _employeService.GetEmployes();
+                    var activos = _assetService.GetAssetsUnused();
+
+                    ViewBag.Empleados = empleados;
+                    ViewBag.Activos = activos;
+                    return View(activoEmpleado);
+                }
             }
         }
 

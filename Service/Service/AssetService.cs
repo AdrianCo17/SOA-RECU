@@ -52,6 +52,21 @@ namespace Service.Service
             return activos;
         }
 
+        public List<Activo> GetAssetsUnused() 
+        {
+            List<Activo> activos= new List<Activo>();
+            try
+            {
+                activos = assetRepository.GetAssetsUnused();
+            } 
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+            }
+            return activos;
+        }
+
+
         public Activo GetAsset(int id)
         {
             Activo activo = new Activo();
@@ -88,6 +103,20 @@ namespace Service.Service
             try
             {
                 succes = assetRepository.Delete(activo);
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+            }
+            return succes;
+        }
+
+        public int SetAssetAsUSed(int id)
+        {
+            int succes = 0;
+            try
+            {
+                succes = assetRepository.SetAssetAsUsed(id);
             }
             catch (Exception e)
             {

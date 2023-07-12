@@ -33,6 +33,18 @@ namespace Repository.DAO
             return _context.Activos.FirstOrDefault(e => e.Id == id);
         }
 
+        public List<Activo> GetAssetsUnused()
+        {
+            return _context.Activos.Where(e => e.Estatus == true).ToList();
+        }
+
+        public int SetAssetAsUsed(int id)
+        {
+            var result = _context.Activos.Find(id);
+            result.Estatus = true;
+            return _context.SaveChanges();
+        }
+
         public int Update(Activo activo)
         {
             _context.Activos.Update(activo);
