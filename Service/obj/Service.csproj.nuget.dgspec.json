@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Service\\Service.csproj": {}
+    "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Domain\\Domain.csproj": {
+    "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\medin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\medin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Repository\\Repository.csproj": {
+    "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\medin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\medin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Domain\\Domain.csproj"
+              "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj"
               }
             }
           }
@@ -134,21 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Service\\Service.csproj": {
+    "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\medin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Service\\obj\\",
+        "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\medin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,11 +162,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Domain\\Domain.csproj"
+              "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\medin\\Source\\Repos\\AdrianCo17\\SOA-RECU\\Repository\\Repository.csproj"
+              "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj"
               }
             }
           }
@@ -202,7 +202,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
