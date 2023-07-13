@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sWHT4eeyTPhQvoQ9sKeGhmyPmiU3j0GKqxzLVQ8VXTPuO15f1E6SejAVAqTPtpXtNolduryGqDIJT2gCRVw0LQ==",
+  "dgSpecHash": "zmzcYRPafqwlFAPwRUcIufqZXR1G/W+bXW5v4vOQn2rRZlN/nKYzU0G4P+5ys0jRRph4l4OTi1jFrQ2XuiDjyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\server\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\server\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

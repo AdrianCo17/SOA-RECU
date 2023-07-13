@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aSHD/dG6J0sCZ9Pjb5PBvty3utf0pzNnX9Xxx0NHZArtbIZTR1XDjStOtcLDIriQv3jG8RmGssD/PNOTz2W3ww==",
+  "dgSpecHash": "xFghJYjmS/JuArj/3VezHgeIl6kPFXDQsLVQ+yLB/AXgErBZoCXALnVo4gSKDcqrFJM41OvME0wtvFV//OggWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\SOA-MVC\\SOA-MVC.csproj",
+  "projectFilePath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\SOA-MVC\\SOA-MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\server\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\server\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

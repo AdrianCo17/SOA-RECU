@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\Service.csproj": {}
+    "C:\\Users\\server\\source\\repos\\SOA-RECU\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj": {
+    "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj": {
+    "C:\\Users\\server\\source\\repos\\SOA-RECU\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj"
+              "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\Service.csproj": {
+    "C:\\Users\\server\\source\\repos\\SOA-RECU\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\obj\\",
+        "outputPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,11 +162,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj"
+              "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj"
+              "C:\\Users\\server\\source\\repos\\SOA-RECU\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Repository\\Repository.csproj"
               }
             }
           }

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj": {}
+    "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj": {
+    "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\obj\\",
         "projectStyle": "PackageReference",

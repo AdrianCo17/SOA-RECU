@@ -1,11 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\SOA-MVC",
-    "\\SOA-MVC\\Controllers",
-    "\\SOA-MVC\\Views",
-    "\\SOA-MVC\\Views\\AssetsEmployes"
+    ""
   ],
-  "SelectedNode": "\\SOA-MVC\\Views\\AssetsEmployes\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -11254,11 +11254,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\SOA-MVC\\SOA-MVC.csproj",
+      "projectUniqueName": "C:\\Users\\server\\source\\repos\\SOA-RECU\\SOA-MVC\\SOA-MVC.csproj",
       "projectName": "SOA-MVC",
-      "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\SOA-MVC\\SOA-MVC.csproj",
+      "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\SOA-MVC\\SOA-MVC.csproj",
       "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\SOA-MVC\\obj\\",
+      "outputPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\SOA-MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11276,11 +11276,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj"
+            "C:\\Users\\server\\source\\repos\\SOA-RECU\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Repository\\Repository.csproj"
             },
-            "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Service\\Service.csproj"
+            "C:\\Users\\server\\source\\repos\\SOA-RECU\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Service\\Service.csproj"
             }
           }
         }

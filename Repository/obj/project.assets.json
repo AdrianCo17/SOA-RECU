@@ -1932,9 +1932,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Repository\\obj\\",
       "projectStyle": "PackageReference",
@@ -1953,8 +1953,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\server\\Source\\Repos\\SOA-RECU\\Domain\\Domain.csproj"
+            "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\server\\source\\repos\\SOA-RECU\\Domain\\Domain.csproj"
             }
           }
         }
