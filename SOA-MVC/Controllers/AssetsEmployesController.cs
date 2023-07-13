@@ -1,10 +1,12 @@
 ﻿using Domain;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Service.IService;
 
 namespace SOA_MVC.Controllers
 {
+    [Authorize]
     public class AssetsEmployesController : Controller
     {
         private readonly IAssetEmploye _assetEmployeService;

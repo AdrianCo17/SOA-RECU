@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Service.IService;
 using Service.Service;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SOA_MVC.Controllers
 {
+    [Authorize]
     public class AssetsController : Controller
     {
 

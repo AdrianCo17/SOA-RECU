@@ -1,9 +1,11 @@
 ﻿using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Service.IService;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SOA_MVC.Controllers
 {
+    [Authorize]
     public class EmployesController : Controller
     { 
 
